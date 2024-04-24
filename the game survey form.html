@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Gaming Survey</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+    </header>
+    <div class="title">
+      <div class="titlebox">
+        <h1 id="title">A Survey About Gaming.</h1>
+        <p id="description">This survey is about the type of gamer you are. It collects your favorite games, gaming genres and your preffered console.</p>
+      </div>
+    </div>
+    <form id="survey-form">
+      <div class="container">
+        <label id="name-label" for="name">Enter your full name:<input id="name" name="name" type="text" placeholder="Firstname + Lastname" required></label>
+      </div>
+      <div class="container">
+        <label id="email-label" for="email">Enter your email address:<input id="email" type="email" placeholder="Email" required></label>
+      </div>
+      <div class="container">
+        <label id="number-label" for="number">Enter your age:<input id="number" type="number" min="13" max="120" placeholder="Age"></label>
+      </div>
+      <div class="container">
+        <label for="dropdown">Choose your preffered gaming console:</label>
+        <select name="gameplatforms" id="dropdown">
+          <option>(Choose an Option)</option>
+          <option value="playstation">Playstation</option>
+          <option value="xbox">Xbox</option>
+          <option value="nintendo">Nintendo</option>
+          <option value="pc">PC</option>
+          <option value="cloud-gaming">Cloud Gaming</option>
+        </select>
+      </div>
+      <div class="container">
+        <p class="fontsize">What type of gamer are you? (required)</p>
+        <label for="online-gamer"><input id="online-gamer" type="radio" name="gamer-type" value="The-Online-Gamer" checked>The Online Gamer</label>
+        <label for="console-gamer"><input id="console-gamer" type="radio" name="gamer-type" value="The-Console-Gamer" >The Console Gamer</label>
+        <label for="explorer-gamer"><input id="explorer-gamer" type="radio"name="gamer-type" value="The-Explorer" >The Explorer</label>
+        <label for="hardcore-gamer"><input id="hardcore-gamer" type="radio" name="gamer-type" value="The-Hardcore-Gamer">The Hardcore Gamer</label>
+        <label for="casual-gamer"><input id="casual-gamer" type="radio" name="gamer-type" value="The-Casual-Gamer">The Casual Gamer</label>
+      </div>
+      <div class="container">
+        <p class="fontsize">Select your favorite gaming genres:</p>
+        <label for="sandbox"><input type="checkbox" id="sandbox" name="gaming-genres" value="sandbox">Sandbox</label>
+        <label for="RTS"><input type="checkbox" id="RTS" name="gaming-genres" value="Real-time-strategy-(RTS)" >Real-time strategy (RTS)</label>
+        <label for="shooters"><input type="checkbox" id="shooters" name="gaming-genres" value="shooters" >Shooters</label>
+        <label for="racing"><input type="checkbox" id="racing" name="gaming-genres" value="Racing" >Racing</label>
+        <label for="sports_simulation"><input type="checkbox" id="sports_simulation" name="gaming-genres" value="sports-and-simulation" >Sports and Simulation</label>
+        <label for="RPG"><input type="checkbox" id="RPG" name="gaming-genres" value="role-playing-game-(rpg)" >Role Playing Game (RPG)</label>
+        <label for="multiplayer"><input type="checkbox" id="multiplayer" name="gaming-genres" value="multiplayer" >Multiplayer</label>
+        <label for="action-adventure"><input type="checkbox" id="action-adventure" name="gaming-genres" value="action-adventure" >Action Adventure</label>
+        <label for="survival"><input type="checkbox" id="survival" name="gaming-genres" value="survival">Survival</label>
+        <label for="horror"><input type="checkbox" id="horror" name="gaming-genres" value="horror" >Horror</label>
+        <label for="platformer"><input type="checkbox" id="platformer" name="gaming-genres" value="platformer">Platformer</label>
+      </div>
+      <div class="container">
+        <label for="fav-games-list">
+          List some of your favorite games:
+        <textarea id="fav-games-list" name="fav-games-list" rows="5"></textarea>
+        </label>
+      </div>
+      <input  id="submit" type="submit" value="Submit">
+    </form>  
+    <footer>
+    </footer>
+  </body>
+</html>

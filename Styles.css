@@ -1,0 +1,136 @@
+
+header, footer{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  display: block;
+}
+
+header{
+  border-bottom: 3px solid rgb(43, 43, 43);
+}
+
+footer{
+  border-top: 3px solid rgb(43, 43, 43);
+
+}
+Body{
+  display: block;  
+  margin: 0;
+  background-image: url("Images/pexels-garrett-johnson-3800795.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
+
+.title{
+  background-color: black;
+   
+  
+}
+
+.titlebox{
+  width: 50%;
+  height: 100%;
+  background-color: black;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: left;
+  padding: 0.1em 0 0 0;
+  color: whitesmoke;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5.5em;
+  margin: 0;
+  min-width: 100%
+}
+  
+#description{
+  text-align: left;
+  margin-top: -1em;
+  color: grey;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
+  padding: 0 0 1em 0;
+  min-width: 100%;
+}
+  
+body, p, #submit{
+  font-family: sans-serif;
+}
+  
+.container {
+  /* border: 2px solid #252627; */
+  border-radius: 5px;
+  margin: 1.5em auto;
+  padding: 1.5em;
+  min-width: 20%;
+  max-width: 45%;
+  display: block;
+  background-color: black;
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2em;  
+  
+  
+  
+}
+  
+label, textarea{
+  display: block;
+  width: 100%;
+    
+}
+  
+textarea{
+  margin-top: 0.3em;
+}
+  
+#dropdown, #name, #email, #number{
+  display: block;
+  margin-top: 0.3em;
+  width: 100%;
+  height: 2em;
+  
+}
+  
+input[type="radio"], input[type="checkbox"]{
+  width: unset;
+  height: unset;
+  display: inline;
+}
+  
+input[type="text"], input[type="email"], input[type="number"]{
+  margin-top: 0.3em;
+  background-color: whitesmoke;
+  border: 0;
+}
+  
+#submit{
+  display: block;
+  width: 30%;
+  height: 3em;
+  margin: 0 auto 2.5em;
+  border: 10px;
+  border-radius: 20px;
+  background-color: #003566;
+  color: whitesmoke;
+  font-size: 1em;
+}
+
+.fontsize{
+  font-size: unset;
+  font-size: 1.1em;
+}
+
+#submit:hover{
+  background-color: #001d3d;
+}
